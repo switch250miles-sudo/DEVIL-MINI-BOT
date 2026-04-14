@@ -1,0 +1,27 @@
+{
+  "name": "telexwp-base",
+  "version": "1.0.0",
+  "description": "Advanced WhatsApp Bot Base with Telegram Pairing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "telegram",
+    "pairing"
+  ],
+  "author": "Silent Tech",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "axios": "^1.6.7",
+    "fs-extra": "^11.2.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "pino": "^8.19.0",
+    "qrcode": "^1.5.3"
+  }
+}
